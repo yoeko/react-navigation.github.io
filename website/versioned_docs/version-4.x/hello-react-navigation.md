@@ -17,6 +17,7 @@ Before continuing, first install [`react-navigation-stack`](https://github.com/r
 
 `createStackNavigator` is a function that returns a React component. It takes _a route configuration object_ and, optionally, _an options object_ (we omit this below, for now). `createAppContainer` is a function that returns a React component to take as a parameter the React component created by the `createStackNavigator`, and can be directly exported from `App.js` to be used as our App's root component.
 
+<h1 id="usage"></h1>
 ```js
 // In App.js in a new project
 
