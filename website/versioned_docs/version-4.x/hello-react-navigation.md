@@ -17,14 +17,14 @@ Before continuing, first install [`react-navigation-stack`](https://github.com/r
 
 `createStackNavigator` is a function that returns a React component. It takes _a route configuration object_ and, optionally, _an options object_ (we omit this below, for now). `createAppContainer` is a function that returns a React component to take as a parameter the React component created by the `createStackNavigator`, and can be directly exported from `App.js` to be used as our App's root component.
 
-<h1 id="usage"></h1>
+<samp>Hello World</samp>
 ```js
 // In App.js in a new project
 
 import React from 'react';
 import { View, Text } from 'react-native';
-import { createAppContainer } from 'react-navigation';
-import { createStackNavigator } from 'react-navigation-stack';
+import { createAppContainer, createStackNavigator } from 'react-navigation';
+// import { createStackNavigator } from 'react-navigation-stack';
 
 class HomeScreen extends React.Component {
   render() {
@@ -44,8 +44,6 @@ const AppNavigator = createStackNavigator({
 
 export default createAppContainer(AppNavigator);
 ```
-
-<a href="https://snack.expo.io/@react-navigation/hello-world-v3" target="blank" class="run-code-button">&rarr; Run this code</a>
 
 If you run this code, you will see a screen with an empty navigation bar and a grey content area containing your `HomeScreen` component. The styles you see for the navigation bar and the content area are the default configuration for a stack navigator, we'll learn how to configure those later.
 
