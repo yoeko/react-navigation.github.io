@@ -2,6 +2,7 @@
   "version-7.x/docs": {
     "Fundamentals": [
       "version-7.x/getting-started",
+      "version-7.x/hello-react-navigation-static",
       "version-7.x/hello-react-navigation",
       "version-7.x/navigating",
       "version-7.x/params",
@@ -9,10 +10,7 @@
       "version-7.x/header-buttons",
       "version-7.x/nesting-navigators",
       "version-7.x/navigation-lifecycle",
-      "version-7.x/next-steps",
-      "version-7.x/glossary-of-terms",
-      "version-7.x/troubleshooting",
-      "version-7.x/limitations"
+      "version-7.x/next-steps"
     ],
     "Guides": [
       "version-7.x/tab-based-navigation",
@@ -41,6 +39,7 @@
       "version-7.x/typescript",
       "version-7.x/redux-integration",
       "version-7.x/MST-integration",
+      "version-7.x/troubleshooting",
       "version-7.x/upgrading-from-6.x"
     ],
     "Static configuration": [
@@ -112,7 +111,9 @@
       "version-7.x/more-resources"
     ],
     "Meta": [
+      "version-7.x/glossary-of-terms",
       "version-7.x/pitch",
+      "version-7.x/limitations",
       "version-7.x/used-by",
       "version-7.x/contributing"
     ]
